@@ -440,7 +440,6 @@ public class PIDControlWidget extends JPanel implements IPIDEventListener,Action
 			try{
 				getGui().getPidDevice().ResetPIDChannel(getGroup(), 0);
 				
-				return;
 			}catch(Exception e){
 				ex=e;
 			}
